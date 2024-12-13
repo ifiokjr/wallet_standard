@@ -44,15 +44,15 @@ All the traits can be imported using the prelude.
 use wallet_standard::prelude::*;
 ```
 
-A full example of how to use this crate can be found in the [wallet_standard_browser](https://github.com/ifiokjr/wasm_solana/tree/main/crates/wallet_standard_browser) crate and in the [wallet_standard_wallets](https://github.com/ifiokjr/wasm_solana/tree/main/crates/wallet_standard_wallets) crate.
+A full example of how to use this crate can be found in the [wallet_standard_browser](https://github.com/ifiokjr/wallet_standard/tree/main/crates/wallet_standard_browser) crate and in the [wallet_standard_wallets](https://github.com/ifiokjr/wallet_standard/tree/main/crates/wallet_standard_wallets) crate.
 
 [crate-image]: https://img.shields.io/crates/v/wallet_standard.svg
 [crate-link]: https://crates.io/crates/wallet_standard
 [docs-image]: https://docs.rs/wallet_standard/badge.svg
 [docs-link]: https://docs.rs/wallet_standard/
-[ci-status-image]: https://github.com/ifiokjr/wasm_solana/workflows/ci/badge.svg
-[ci-status-link]: https://github.com/ifiokjr/wasm_solana/actions?query=workflow:ci
+[ci-status-image]: https://github.com/ifiokjr/wallet_standard/workflows/ci/badge.svg
+[ci-status-link]: https://github.com/ifiokjr/wallet_standard/actions?query=workflow:ci
 [unlicense-image]: https://img.shields.io/badge/license-Unlicence-blue.svg
 [unlicense-link]: https://opensource.org/license/unlicense
-[codecov-image]: https://codecov.io/github/ifiokjr/wasm_solana/graph/badge.svg?token=87K799Q78I
-[codecov-link]: https://codecov.io/github/ifiokjr/wasm_solana
+[codecov-image]: https://codecov.io/github/ifiokjr/wallet_standard/graph/badge.svg?token=87K799Q78I
+[codecov-link]: https://codecov.io/github/ifiokjr/wallet_standard

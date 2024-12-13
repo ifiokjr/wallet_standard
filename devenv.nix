@@ -92,16 +92,14 @@
   scripts."test:all" = {
     exec = ''
       set -e
-      cargo test_wallet_standard_wallets_ssr
-      cargo test_wallet_standard_wallets_docs
+      cargo test_wallet_standard
     '';
     description = "Run all tests across the crates";
   };
   scripts."coverage:all" = {
     exec = ''
       set -e
-      cargo coverage_wallet_standard_wallets_ssr
-      cargo coverage_wallet_standard_wallets_docs
+			cargo coverage_wallet_standard
       cargo coverage_codecov_report
     '';
     description = "Run coverage across the crates";

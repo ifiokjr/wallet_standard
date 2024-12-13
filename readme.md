@@ -3,8 +3,8 @@
 > The wasm compatible implementation of the [Wallet Standard](https://github.com/wallet-standard/wallet-standard) for [Solana](https://github.com/anza-xyz/wallet-standard).
 
 <p align="center">
-  <a href="https://github.com/ifiokjr/wasm_solana/actions?query=workflow:ci">
-    <img src="https://github.com/ifiokjr/wasm_solana/workflows/ci/badge.svg" alt="Continuous integration badge for github actions" title="CI Badge" />
+  <a href="https://github.com/ifiokjr/wallet_standard/actions?query=workflow:ci">
+    <img src="https://github.com/ifiokjr/wallet_standard/workflows/ci/badge.svg" alt="Continuous integration badge for github actions" title="CI Badge" />
   </a>
 </p>
 
@@ -16,17 +16,13 @@ This repository contains several crates that make it easier to interact with Sol
 
 | Crate                     | Version | Description                                                     |
 | ------------------------- | ------- | --------------------------------------------------------------- |
-| `wallet_standard`         | 0.4.1   | Core implementation of the wallet standard interface for Solana |
-| `wallet_standard_browser` | 0.4.0   | Browser-specific implementation of the wallet standard          |
-| `wallet_standard_wallets` | 0.1.16  | A collection of wallets implementing the standard               |
+| `wallet_standard`         | 0.4     | Core implementation of the wallet standard interface for Solana |
+| `wallet_standard_browser` | 0.4     | Browser-specific implementation of the wallet standard          |
 
 ### Crate Details
 
 - **wallet_standard**: Provides the core wallet standard interface implementation for Solana. This includes transaction signing, message signing, and other wallet-related functionality.
-
 - **wallet_standard_browser**: Browser-specific implementation of the wallet standard, allowing seamless integration with web applications. Includes JavaScript bindings and browser-specific wallet detection.
-
-- **wallet_standard_wallets**: A collection of utilities to make testing Solana programs easier. Includes helpers for setting up test validators, creating test accounts, and managing test transactions.
 
 See the individual crates for more information.
 

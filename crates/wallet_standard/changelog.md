@@ -7,13 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.4.1](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.4.0...wallet_standard@v0.4.1) - 2024-12-12
+## [0.4.1](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.4.0...wallet_standard@v0.4.1) - 2024-12-12
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
 
 - update dependencies and configurations across multiple crates
 
-## [0.4.0](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.3.0...wallet_standard@v0.4.0) - 2024-10-13
+## [0.4.0](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.3.0...wallet_standard@v0.4.0) - 2024-10-13
 
 ### <!-- 0 -->🎉 Added
 
@@ -24,31 +24,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - update instances of `pubkey` and `sign_message` after rename
 
-## [0.3.0](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.2.1...wallet_standard@v0.3.0) - 2024-10-12
+## [0.3.0](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.2.1...wallet_standard@v0.3.0) - 2024-10-12
 
 ### <!-- 2 -->🚜 Refactor
 
 - [**breaking**] remove `AsyncSigner`
 
-## [0.2.1](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.2.0...wallet_standard@v0.2.1) - 2024-10-03
+## [0.2.1](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.2.0...wallet_standard@v0.2.1) - 2024-10-03
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
 
 - update formatting
 
-## [0.2.0](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.1.3...wallet_standard@v0.2.0) - 2024-09-28
+## [0.2.0](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.1.3...wallet_standard@v0.2.0) - 2024-09-28
 
 ### <!-- 0 -->🎉 Added
 
 - [**breaking**] make `signed_transaction` return `VersionedTransaction`
 
-## [0.1.3](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.1.2...wallet_standard@v0.1.3) - 2024-09-18
+## [0.1.3](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.1.2...wallet_standard@v0.1.3) - 2024-09-18
 
 ### <!-- 3 -->📚 Documentation
 
 - include crate `readme.md`
 
-## [0.1.2](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.1.1...wallet_standard@v0.1.2) - 2024-09-16
+## [0.1.2](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.1.1...wallet_standard@v0.1.2) - 2024-09-16
 
 ### <!-- 2 -->🚜 Refactor
 
@@ -58,7 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - make crate versioning independent
 
-## [0.1.1](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard@v0.1.0...wallet_standard@v0.1.1) - 2024-09-13
+## [0.1.1](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.1.0...wallet_standard@v0.1.1) - 2024-09-13
 
 ### <!-- 2 -->🚜 Refactor
 

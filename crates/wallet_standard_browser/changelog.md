@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.4.0](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.3.1...wallet_standard_browser@v0.4.0) - 2024-12-12
+## [0.4.0](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.3.1...wallet_standard_browser@v0.4.0) - 2024-12-12
 
 ### <!-- 0 -->🎉 Added
 
@@ -17,26 +17,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - update dependencies and configurations across multiple crates
 
-## [0.3.1](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.3.0...wallet_standard_browser@v0.3.1) - 2024-10-13
+## [0.3.1](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.3.0...wallet_standard_browser@v0.3.1) - 2024-10-13
 
 ### <!-- 1 -->🐛 Bug Fixes
 
 - move `solana` specific features
 - update instances of `pubkey` and `sign_message` after rename
 
-## [0.3.0](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.2.1...wallet_standard_browser@v0.3.0) - 2024-10-12
+## [0.3.0](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.2.1...wallet_standard_browser@v0.3.0) - 2024-10-12
 
 ### <!-- 2 -->🚜 Refactor
 
 - [**breaking**] remove `AsyncSigner`
 
-## [0.2.1](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.2.0...wallet_standard_browser@v0.2.1) - 2024-10-03
+## [0.2.1](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.2.0...wallet_standard_browser@v0.2.1) - 2024-10-03
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
 
 - update formatting
 
-## [0.2.0](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.1.4...wallet_standard_browser@v0.2.0) - 2024-09-28
+## [0.2.0](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.1.4...wallet_standard_browser@v0.2.0) - 2024-09-28
 
 ### <!-- 0 -->🎉 Added
 
@@ -46,19 +46,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - remove unused deps
 
-## [0.1.4](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.1.3...wallet_standard_browser@v0.1.4) - 2024-09-21
+## [0.1.4](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.1.3...wallet_standard_browser@v0.1.4) - 2024-09-21
 
 ### <!-- 3 -->📚 Documentation
 
 - fix typo
 
-## [0.1.3](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.1.2...wallet_standard_browser@v0.1.3) - 2024-09-18
+## [0.1.3](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.1.2...wallet_standard_browser@v0.1.3) - 2024-09-18
 
 ### <!-- 3 -->📚 Documentation
 
 - include crate `readme.md`
 
-## [0.1.2](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.1.1...wallet_standard_browser@v0.1.2) - 2024-09-16
+## [0.1.2](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.1.1...wallet_standard_browser@v0.1.2) - 2024-09-16
 
 ### <!-- 0 -->🎉 Added
 
@@ -76,14 +76,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - make crate versioning independent
 
-## [0.1.1](https://github.com/ifiokjr/wasm_solana/compare/wallet_standard_browser@v0.1.0...wallet_standard_browser@v0.1.1) - 2024-09-13
+## [0.1.1](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard_browser@v0.1.0...wallet_standard_browser@v0.1.1) - 2024-09-13
 
 ### <!-- 3 -->📚 Documentation
 
 - add `wallet-standard` github repo link
 - update crate readme description
 
-## [0.1.0](https://github.com/ifiokjr/wasm_solana/releases/tag/wallet_standard_browser@v0.1.0) - 2024-09-12
+## [0.1.0](https://github.com/ifiokjr/wallet_standard/releases/tag/wallet_standard_browser@v0.1.0) - 2024-09-12
 
 ### <!-- 0 -->🎉 Added
 

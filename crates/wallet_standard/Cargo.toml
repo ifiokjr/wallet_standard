@@ -27,6 +27,9 @@ thiserror = { workspace = true }
 typed-builder = { workspace = true }
 wasm-bindgen = { workspace = true, optional = true }
 
+[dev-dependencies]
+insta = { workspace = true, features = ["json", "redactions", "ron", "yaml"] }
+
 [features]
 browser = ["dep:serde-wasm-bindgen", "dep:wasm-bindgen"]
 solana = ["dep:bincode", "dep:solana-sdk"]

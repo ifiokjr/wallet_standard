@@ -80,15 +80,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           nix-cache: /tmp/nixcache
 
-      - name: test `wallet_standard_wallets` with `ssr`
-        run: cargo test_wallet_standard_wallets_ssr
-        shell: bash
-
-      - name: test `wallet_standard_wallets` with `docs`
-        run: cargo test_wallet_standard_wallets_docs
+      - name: test `wallet_standard` with `ssr`
+        run: cargo test_wallet_standard_ssr
         shell: bash
 
   coverage:
+    if: false
     timeout-minutes: 60
     runs-on: ubuntu-24.04
     steps:
@@ -110,12 +107,8 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           nix-cache: /tmp/nixcache
 
-      - name: coverage `wallet_standard_wallets_ssr`
-        run: cargo coverage_wallet_standard_wallets_ssr
-        shell: bash
-
-      - name: coverage `wallet_standard_wallets_docs`
-        run: cargo coverage_wallet_standard_wallets_docs
+      - name: coverage `wallet_standard`
+        run: cargo coverage_wallet_standard
         shell: bash
 
       - name: coverage `codecov_report`

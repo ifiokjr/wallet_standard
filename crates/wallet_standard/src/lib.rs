@@ -32,3 +32,33 @@ pub mod prelude {
 	pub use super::WalletStandardConnect;
 	pub use super::WalletStandardDisconnect;
 }
+
+#[cfg(feature = "solana")]
+#[cfg(test)]
+mod tests {
+	use solana_sdk::message::Message;
+	use solana_sdk::signature::Signature;
+	use solana_sdk::transaction::Transaction;
+	use solana_sdk::transaction::VersionedTransaction;
+
+	use super::*;
+
+	#[test]
+	fn versioned_transaction_implements_solana_sign_transaction_output() {
+		let transaction =
+			VersionedTransaction::from(Transaction::new_unsigned(Message::new(&[], None)));
+		insta::assert_json_snapshot!(transaction.signed_transaction_bytes());
+	}
+
+	#[test]
+	fn transaction_implements_solana_sign_transaction_output() {
+		let transaction = Transaction::new_unsigned(Message::new(&[], None));
+		insta::assert_json_snapshot!(transaction.signed_transaction_bytes());
+	}
+
+	#[test]
+	fn signature_implements_signature_output() {
+		let signature = Signature::default();
+		insta::assert_json_snapshot!(signature.try_signature());
+	}
+}

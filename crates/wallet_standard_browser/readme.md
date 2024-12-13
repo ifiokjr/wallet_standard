@@ -45,9 +45,9 @@ async fn run() -> anyhow::Result<()> {
 [crate-link]: https://crates.io/crates/wallet_standard_browser
 [docs-image]: https://docs.rs/wallet_standard_browser/badge.svg
 [docs-link]: https://docs.rs/wallet_standard_browser/
-[ci-status-image]: https://github.com/ifiokjr/wasm_solana/workflows/ci/badge.svg
-[ci-status-link]: https://github.com/ifiokjr/wasm_solana/actions?query=workflow:ci
+[ci-status-image]: https://github.com/ifiokjr/wallet_standard/workflows/ci/badge.svg
+[ci-status-link]: https://github.com/ifiokjr/wallet_standard/actions?query=workflow:ci
 [unlicense-image]: https://img.shields.io/badge/license-Unlicence-blue.svg
 [unlicense-link]: https://opensource.org/license/unlicense
-[codecov-image]: https://codecov.io/github/ifiokjr/wasm_solana/graph/badge.svg?token=87K799Q78I
-[codecov-link]: https://codecov.io/github/ifiokjr/wasm_solana
+[codecov-image]: https://codecov.io/github/ifiokjr/wallet_standard/graph/badge.svg?token=87K799Q78I
+[codecov-link]: https://codecov.io/github/ifiokjr/wallet_standard
