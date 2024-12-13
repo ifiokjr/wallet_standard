@@ -1,6 +1,6 @@
 [workspace]
-git_release_name = "{{ package }}@v{{ version }}"
-git_tag_name = "{{ package }}@v{{ version }}"
+git_release_name = "{{ version }}"
+git_tag_name = "{{ version }}"
 
 [[package]]
 name = "wallet_standard"
