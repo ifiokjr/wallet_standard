@@ -10,10 +10,6 @@ changelog_path = "crates/wallet_standard/changelog.md"
 name = "wallet_standard_browser"
 changelog_path = "crates/wallet_standard_browser/changelog.md"
 
-[[package]]
-name = "wallet_standard_wallets"
-changelog_path = "crates/wallet_standard_wallets/changelog.md"
-
 [changelog]
 commit_parsers = [
 	{ message = "^feat", group = "<!-- 0 -->🎉 Added" },

@@ -9,42 +9,24 @@ semver-checks = ["bin", "cargo-semver-checks"]
 
 # tests
 
-test_wallet_standard_wallets_ssr = [
+test_wallet_standard = [
 	"nextest",
 	"run",
 	"--package",
-	"wallet_standard_wallets",
+	"wallet_standard",
 	"-F",
-	"ssr",
-]
-test_wallet_standard_wallets_docs = [
-	"test",
-	"--package",
-	"wallet_standard_wallets",
-	"--doc",
-	"-F",
-	"ssr",
+	"solana",
 ]
 
-# coverage
-
-coverage_wallet_standard_wallets_ssr = [
+coverage_wallet_standard = [
 	"llvm-cov",
 	"--no-report",
 	"--package",
-	"wallet_standard_wallets",
+	"wallet_standard",
 	"-F",
-	"ssr",
+	"solana",
 ]
-coverage_wallet_standard_wallets_docs = [
-	"llvm-cov",
-	"--no-report",
-	"--package",
-	"wallet_standard_wallets",
-	"--doc",
-	"-F",
-	"ssr",
-]
+
 coverage_codecov_report = [
 	"llvm-cov",
 	"report",

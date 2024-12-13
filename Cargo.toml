@@ -5,9 +5,9 @@ resolver = "2"
 [workspace.package]
 authors = ["Ifiok Jr. <ifiokotung@gmail.com>"]
 edition = "2021"
-homepage = "https://github.com/ifiokjr/wasm_solana"
+homepage = "https://github.com/ifiokjr/wallet_standard"
 license = "Unlicense"
-repository = "https://github.com/ifiokjr/wasm_solana"
+repository = "https://github.com/ifiokjr/wallet_standard"
 rust-version = "1.79.0"
 
 [workspace.dependencies]
@@ -17,15 +17,12 @@ async-trait = "0.1"
 bincode = "1"
 derive_more = "1"
 futures = "0.3"
-indexmap = "2"
 insta = "1"
 js-sys = "0.3"
 log = "0.4"
-nacl = "0.5"
 serde = "1"
 serde-wasm-bindgen = "0.6"
 serde_bytes = "0.11"
-solana-program = "^2.1"
 solana-sdk = "^2.1"
 test-log = "0.2"
 test_utils = { git = "https://github.com/ifiokjr/wasm_solana", rev = "7dfa384" }
@@ -36,16 +33,11 @@ typed-builder = "0.20"
 wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4"
 wasm-bindgen-test = "0.3"
-wasm_client_solana = "0.7.0"
 web-sys = "0.3"
 
 # publishable crates
 wallet_standard = { path = "./crates/wallet_standard", version = "0.4.1" }
 wallet_standard_browser = { path = "./crates/wallet_standard_browser", version = "0.4.0" }
-wallet_standard_wallets = { path = "./crates/wallet_standard_wallets", version = "0.1.15" }
-
-[patch.crates-io]
-wallet_standard = { path = "./crates/wallet_standard" }
 
 [workspace.metadata.bin]
 cargo-insta = { version = "1.41.1" }
