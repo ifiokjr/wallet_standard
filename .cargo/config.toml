@@ -7,8 +7,6 @@ llvm-cov = ["bin", "cargo-llvm-cov"]
 nextest = ["bin", "cargo-nextest"]
 semver-checks = ["bin", "cargo-semver-checks"]
 
-# tests
-
 test_wallet_standard = [
 	"nextest",
 	"run",

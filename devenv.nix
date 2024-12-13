@@ -37,6 +37,13 @@
     '';
     description = "The `wasm-bindgen-test-runner` executable";
   };
+  scripts."release-plz" = {
+    exec = ''
+      set -e
+      cargo bin release-plz $@
+    '';
+    description = "The `release-plz` executable";
+  };
   scripts."install:all" = {
     exec = ''
       set -e
