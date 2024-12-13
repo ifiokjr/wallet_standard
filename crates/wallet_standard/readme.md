@@ -44,7 +44,7 @@ All the traits can be imported using the prelude.
 use wallet_standard::prelude::*;
 ```
 
-A full example of how to use this crate can be found in the [wallet_standard_browser](https://github.com/ifiokjr/wallet_standard/tree/main/crates/wallet_standard_browser) crate and in the [wallet_standard_wallets](https://github.com/ifiokjr/wallet_standard/tree/main/crates/wallet_standard_wallets) crate.
+A full example of how to use this crate can be found in the [wallet_standard_browser](https://github.com/ifiokjr/wallet_standard/tree/main/crates/wallet_standard_browser) crate and in the [memory_wallet](https://github.com/ifiokjr/wasm_solana/tree/main/crates/memory_wallet) crate.
 
 [crate-image]: https://img.shields.io/crates/v/wallet_standard.svg
 [crate-link]: https://crates.io/crates/wallet_standard
