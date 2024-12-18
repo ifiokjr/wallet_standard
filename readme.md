@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ifiokjr/wallet_standard/actions?query=workflow:ci">
-    <img src="https://github.com/ifiokjr/wallet_standard/workflows/ci/badge.svg" alt="Continuous integration badge for github actions" title="CI Badge" />
+    <img src="https://github.com/ifiokjr/wallet_standard/actions/workflows/ci.yml/badge.svg" alt="Continuous integration badge for github actions" title="CI Badge" />
   </a>
 </p>
 
