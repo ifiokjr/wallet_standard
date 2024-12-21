@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.4.4](https://github.com/ifiokjr/wallet_standard/compare/0.4.3...0.4.4) - 2024-12-21
+
+### <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- update Cargo.lock dependencies
+
 ## [0.4.2](https://github.com/ifiokjr/wallet_standard/compare/wallet_standard@v0.4.1...wallet_standard@v0.4.2) - 2024-12-13
 
 ### <!-- 6 -->🧪 Testing
