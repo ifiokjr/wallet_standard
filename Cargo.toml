@@ -35,8 +35,8 @@ wasm-bindgen-test = "0.3"
 web-sys = "0.3"
 
 # publishable crates
-wallet_standard = { path = "./crates/wallet_standard", version = "0.4.2" }
-wallet_standard_browser = { path = "./crates/wallet_standard_browser", version = "0.4.1" }
+wallet_standard = { path = "./crates/wallet_standard", version = "0.4.3" }
+wallet_standard_browser = { path = "./crates/wallet_standard_browser", version = "0.4.3" }
 
 [workspace.metadata.bin]
 cargo-insta = { version = "1.41.1" }
