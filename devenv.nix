@@ -92,7 +92,7 @@
   };
   scripts."build:docs" = {
     exec = ''
-      RUSTDOCFLAGS="--cfg docsrs" cargo doc --workspace
+      RUSTUP_TOOLCHAIN="nightly" RUSTDOCFLAGS="--cfg docsrs" cargo doc --workspace
     '';
     description = "Build documentation site.";
   };

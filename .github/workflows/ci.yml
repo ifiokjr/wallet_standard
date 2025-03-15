@@ -1,4 +1,5 @@
 name: "ci"
+
 permissions:
   pull-requests: write
   contents: write
@@ -28,17 +29,23 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           nix-cache: /tmp/nixcache
 
-      - name: lint formatting
-        run: lint:format
-        shell: bash
-
       - uses: clechasseur/rs-clippy-check@v3
         with:
           args: --all-features
 
+      - name: install nightly rustfmt
+        run: rustup toolchain install nightly --component rustfmt
+        shell: bash
+
+      - name: lint formatting
+        run: lint:format
+        shell: bash
+
   docs:
     timeout-minutes: 60
     runs-on: ubuntu-24.04
+    env:
+      RUSTUP_TOOLCHAIN: "nightly"
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
@@ -56,11 +63,6 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        version: ["1.79.0", ""]
-    env:
-      RUSTUP_TOOLCHAIN: ${{ matrix.version }}
     steps:
       - name: free disk space
         run: |
@@ -124,11 +126,6 @@ jobs:
   build:
     timeout-minutes: 60
     runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        version: ["1.79.0", ""]
-    env:
-      RUSTUP_TOOLCHAIN: ${{ matrix.version }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
