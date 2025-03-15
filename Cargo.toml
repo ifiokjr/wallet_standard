@@ -3,7 +3,7 @@ members = ["crates/*"]
 resolver = "2"
 
 [workspace.package]
-version = "0.4.3"
+version = "0.4.4"
 authors = ["Ifiok Jr. <ifiokotung@gmail.com>"]
 edition = "2024"
 homepage = "https://github.com/ifiokjr/wallet_standard"
@@ -35,8 +35,8 @@ wasm-bindgen-test = "0.3"
 web-sys = "0.3"
 
 # publishable crates
-wallet_standard = { path = "./crates/wallet_standard", version = "0.4.3" }
-wallet_standard_browser = { path = "./crates/wallet_standard_browser", version = "0.4.3" }
+wallet_standard = { path = "./crates/wallet_standard", version = "0.4.4" }
+wallet_standard_browser = { path = "./crates/wallet_standard_browser", version = "0.4.4" }
 
 [workspace.metadata.bin]
 cargo-insta = { version = "1.42.2" }
